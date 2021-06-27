@@ -24,10 +24,6 @@ public class NoteBean {
         return createTime;
     }
 
-    public void setCreateTime(String createTime) {
-        this.createTime = createTime;
-    }
-
     public String getCursor_id() {
         return Cursor_id;
     }

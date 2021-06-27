@@ -24,7 +24,6 @@ import com.example.android.notepad.application.MyApplication;
 public class NotesListAdapter extends BaseAdapter {
 
     private final Uri mUri;
-    private final String actionName;
     private final Context context;
     public  Cursor cursor;
     private final LayoutInflater inflater;
@@ -41,7 +40,6 @@ public class NotesListAdapter extends BaseAdapter {
         background=MyApplication.getBackground();
         this.context=context;
         this.cursor = cursor;
-        this.actionName=actionName;
         mUri=uri;
         inflater=LayoutInflater.from(context);
         mDate= new ArrayList<>();

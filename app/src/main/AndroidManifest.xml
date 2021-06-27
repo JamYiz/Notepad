@@ -20,6 +20,7 @@
      own application, the package name must be changed from "com.example.*"
      to come from a domain that you own or have control over. -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.android.notepad" >
 
     <uses-sdk android:minSdkVersion="11" />
@@ -41,7 +42,8 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            <intent-filter>
+            <intent-filter android:scheme="http"
+                tools:ignore="AppLinkUrlError">
                 <action android:name="android.intent.action.VIEW" />
                 <action android:name="android.intent.action.EDIT" />
                 <action android:name="android.intent.action.PICK" />
@@ -62,7 +64,9 @@
         >
             <!-- This filter says that we can view or edit the data of
                  a single note -->
-            <intent-filter android:label="@string/resolve_edit">
+            <intent-filter android:label="@string/resolve_edit"
+                android:scheme="http"
+                tools:ignore="AppLinkUrlError">
                 <action android:name="android.intent.action.VIEW" />
                 <action android:name="android.intent.action.EDIT" />
                 <action android:name="com.android.notepad.action.EDIT_NOTE" />
@@ -110,13 +114,6 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="NotesLiveFolder" android:label="@string/live_folder_name"
-            android:icon="@drawable/live_folder_notes">
-            <intent-filter>
-                <action android:name="android.intent.action.CREATE_LIVE_FOLDER" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
 
     </application>
 

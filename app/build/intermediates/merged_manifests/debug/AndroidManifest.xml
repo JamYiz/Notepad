@@ -51,7 +51,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            <intent-filter>
+            <intent-filter android:scheme="http" >
                 <action android:name="android.intent.action.VIEW" />
                 <action android:name="android.intent.action.EDIT" />
                 <action android:name="android.intent.action.PICK" />
@@ -78,7 +78,9 @@
                  This filter says that we can view or edit the data of
                  a single note
             -->
-            <intent-filter android:label="@string/resolve_edit" >
+            <intent-filter
+                android:label="@string/resolve_edit"
+                android:scheme="http" >
                 <action android:name="android.intent.action.VIEW" />
                 <action android:name="android.intent.action.EDIT" />
                 <action android:name="com.android.notepad.action.EDIT_NOTE" />
@@ -138,16 +140,6 @@
                 <category android:name="android.intent.category.SELECTED_ALTERNATIVE" />
                 <!-- This is the data type we operate on. -->
                 <data android:mimeType="vnd.android.cursor.item/vnd.google.note" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name="com.example.android.notepad.NotesLiveFolder"
-            android:icon="@drawable/live_folder_notes"
-            android:label="@string/live_folder_name" >
-            <intent-filter>
-                <action android:name="android.intent.action.CREATE_LIVE_FOLDER" />
-
-                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity

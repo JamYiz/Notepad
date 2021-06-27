@@ -12,28 +12,28 @@
         "source": "F:\\CODE\\Android\\notepad-master-master\\app\\src\\main\\res\\drawable\\contact_edit_edittext_normal.xml"
     },
     {
-        "merged": "F:\\CODE\\Android\\notepad-master-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_snow.png.flat",
-        "source": "F:\\CODE\\Android\\notepad-master-master\\app\\src\\main\\res\\drawable\\snow.png"
+        "merged": "F:\\CODE\\Android\\notepad-master-master\\app\\build\\intermediates\\res\\merged\\debug\\menu_list_context_menu.xml.flat",
+        "source": "F:\\CODE\\Android\\notepad-master-master\\app\\src\\main\\res\\menu\\list_context_menu.xml"
     },
     {
         "merged": "F:\\CODE\\Android\\notepad-master-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_live_folder_notes.png.flat",
         "source": "F:\\CODE\\Android\\notepad-master-master\\app\\src\\main\\res\\drawable-hdpi\\live_folder_notes.png"
     },
     {
-        "merged": "F:\\CODE\\Android\\notepad-master-master\\app\\build\\intermediates\\res\\merged\\debug\\menu_list_context_menu.xml.flat",
-        "source": "F:\\CODE\\Android\\notepad-master-master\\app\\src\\main\\res\\menu\\list_context_menu.xml"
+        "merged": "F:\\CODE\\Android\\notepad-master-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_snow.png.flat",
+        "source": "F:\\CODE\\Android\\notepad-master-master\\app\\src\\main\\res\\drawable\\snow.png"
     },
     {
         "merged": "F:\\CODE\\Android\\notepad-master-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu_revert.png.flat",
         "source": "F:\\CODE\\Android\\notepad-master-master\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_revert.png"
     },
     {
-        "merged": "F:\\CODE\\Android\\notepad-master-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_b.png.flat",
-        "source": "F:\\CODE\\Android\\notepad-master-master\\app\\src\\main\\res\\drawable\\b.png"
-    },
-    {
         "merged": "F:\\CODE\\Android\\notepad-master-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_title_editor.xml.flat",
         "source": "F:\\CODE\\Android\\notepad-master-master\\app\\src\\main\\res\\layout\\title_editor.xml"
+    },
+    {
+        "merged": "F:\\CODE\\Android\\notepad-master-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_b.png.flat",
+        "source": "F:\\CODE\\Android\\notepad-master-master\\app\\src\\main\\res\\drawable\\b.png"
     },
     {
         "merged": "F:\\CODE\\Android\\notepad-master-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tianjia.png.flat",

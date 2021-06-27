@@ -453,7 +453,7 @@ public class NoteEditor extends Activity {
             mCursor.close();
             mCursor = null;
             getContentResolver().delete(mUri, null, null);
-            mText.setText("");
+            mText.setText("" );
         }
     }
 }

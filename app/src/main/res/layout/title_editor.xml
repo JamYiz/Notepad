@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="6dip"
+    android:paddingRight="6dip"
+    android:paddingBottom="3dip">
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="15dp"
+        android:autoText="true"
+        android:capitalize="sentences"
+        android:ems="25"
+        android:maxLines="1"
+        android:scrollHorizontally="true" />
+   		
+    <Button android:id="@+id/ok"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_gravity="right"
+        android:text="@string/button_ok"
+        android:onClick="onClickOk" />
+   		
+</LinearLayout>
